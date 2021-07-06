@@ -30,5 +30,5 @@ class ContentGenerator:
     @classmethod
     async def get_async(cls) -> bytes:
         """Get an answer (ASYNC version)."""
-        asyncio.sleep(cls.delay * (1.0 if not cls.delay_random else random.random()))
+        await asyncio.sleep(cls.delay * (1.0 if not cls.delay_random else random.random()))
         return str(random.randint(0, cls.max_value)).encode("utf8")

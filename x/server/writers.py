@@ -3,7 +3,7 @@ import logging
 import socket
 import asyncio
 
-from server.content import ContentGenerator
+from x.server.content import ContentGenerator
 
 
 def writer(client: socket.socket, client_address: socket.AddressInfo, writer_id: int) -> tuple:

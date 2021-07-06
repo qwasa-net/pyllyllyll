@@ -4,8 +4,8 @@ import logging
 
 import config
 
-import server.writers as writers
-from server.content import ContentGenerator
+import x.server.writers as writers
+from x.server.content import ContentGenerator
 
 
 def main():
