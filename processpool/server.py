@@ -1,4 +1,4 @@
-"""Multiprocess server."""
+"""Multiprocess (ProcessPoolExecutor) server."""
 import concurrent.futures
 import logging
 import socket

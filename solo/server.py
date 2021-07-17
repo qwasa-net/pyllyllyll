@@ -1,4 +1,4 @@
-"""Simple iterative server impementation. Only one client is served at a time."""
+"""Simple iterative server implementation. Only one client is served at a time."""
 
 import socket
 
